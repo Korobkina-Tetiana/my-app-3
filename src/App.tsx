@@ -7,7 +7,10 @@ import { title } from 'process';
 function App() {
   return (
     <div className="App">
-      <Header title='My purchase history' />
+      <Header title='My purchase history in London' />
+      <Header title='My purchase history in Milan' />
+      <Header title='My purchase history in Brno' />
+      <Header title='My purchase history in Lviv' />
     </div>
   );
 }
